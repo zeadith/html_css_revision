@@ -54,8 +54,8 @@ table {
 */
 
 body {
-  background: #812b5b;
-  color: #1a2653;
+  background: #1e0063;
+  color: #616b87;
   font: 400 16px/22px "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -134,10 +134,10 @@ body {
   padding: 60px 0 40px 0;
 }
 .row-alt {
-  background: #f5c391;
-  background: -webkit-linear-gradient(to bottom, #812b5b, #f5c391);
-  background:    -moz-linear-gradient(to bottom, #812b5b, #f5c391);
-  background:         linear-gradient(to bottom, #812b5b, #f5c391);
+  background: #ecffd4;
+  background: -webkit-linear-gradient(to right, #ecffd4, #bbfaf3);
+  background:    -moz-linear-gradient(to right, #ecffd4, #bbfaf3);
+  background:         linear-gradient(to right, #ecffd4, #bbfaf3);
   padding: 40px 0 20px 0;
 }
 
@@ -149,22 +149,22 @@ body {
 */
 
 a {
-  color: #1a2653;
+  color: #fff;
   text-decoration: none;
 }
 a:hover {
-  color: #d09C7e;
+  color: #5979d3;
 }
 p a {
   border-bottom: 1px solid red;
 }
 .primary-header a,
 .primary-footer a {
-  color: #1a2653;
+  color: #fff;
 }
 .primary-header a:hover,
 .primary-footer a:hover {
-  color: #d09C7e;
+  color: #5979d3;
 }
 
 
@@ -174,8 +174,8 @@ p a {
   ========================================
 */
 
-h1, h2, h3, h4 {
-  color: #9a4952;
+h1, h3, h4 {
+  color: #5979d3;
 }
 h1, h3, h4, h5, p {
   margin-bottom: 20px;
@@ -185,6 +185,7 @@ h1 {
   line-height: 44px;
 }
 h2 {
+  color: #e9efff;
   font-size: 24px;
   line-height: 44px;
 }
@@ -195,7 +196,7 @@ h4 {
   font-size: 18px;
 }
 h5 {
-  color: #b45560;
+  color: #616b87;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -219,6 +220,7 @@ em {
   text-align: center;
 }
 .lead p {
+  color: #5979d3;
   font-size: 21px;
   line-height: 33px;
 }
@@ -242,12 +244,12 @@ em {
 }
 .btn-default {
   border: 0;
-  background: #648880;
+  background: #616b87;
   padding: 11px 30px;
   font-size: 14px;
 }
 .btn-default:hover {
-  background: #77a198;
+  background: #5979d3;
 }
 .btn-alt {
   border: 1px solid #fff;
@@ -255,7 +257,7 @@ em {
 }
 .btn-alt:hover {
   background: #fff;
-  color: #648880;
+  color: #1e0063;
 }
 
 /*
@@ -265,13 +267,12 @@ em {
 */
 
 .logo {
-  border-top: 4px solid #648880;
   float: left;
   font-size: 48px;
   font-weight: 600;
   letter-spacing: .5px;
   line-height: 44px;
-  padding: 40px 0 20px 0;
+  padding: 40px 0 30px 0;
   text-transform: uppercase;
 }
 .tagline {
@@ -293,7 +294,7 @@ em {
 */
 
 .primary-footer {
-  color: #648880;
+  color: #fff;
   font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
@@ -342,7 +343,7 @@ em {
   font-weight: 100;
 }
 .teaser a:hover h3 {
-  color: #a9b2b9;
+  color: #4900f0;
 }
 .teaser img {
   border-radius: 5px;
@@ -362,7 +363,7 @@ em {
   margin-bottom: 44px;
 }
 .me-info {
-  border: 1px solid #dfe2e5;
+  border: 1px solid #616b87;
   border-radius: 5px;
   margin-top: 88px;
   padding-bottom: 22px;
@@ -381,10 +382,6 @@ em {
   ========================================
 */
 
-.why-attend {
-  list-style: square;
-  margin: 0 0 22px 30px;
-}
 form {
   margin-bottom: 22px;
 }
@@ -394,14 +391,14 @@ textarea {
   font: 400 16px/22px "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .contact-group label {
-  color: #648880;
+  color: #616b87;
   cursor: pointer;
   font-weight: 400;
 }
 .contact-group input,
 .contact-group select,
 .contact-group textarea {
-  border: 1px solid #c6c9cc;
+  border: 1px solid #616b87;
   border-radius: 5px;
   color: #888;
   display: block;
