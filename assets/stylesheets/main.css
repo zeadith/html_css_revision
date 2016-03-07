@@ -156,7 +156,7 @@ a:hover {
   color: #5979d3;
 }
 p a {
-  border-bottom: 1px solid red;
+  color: #616b87;
 }
 .primary-header a,
 .primary-footer a {
@@ -208,6 +208,11 @@ cite,
 em {
   font-style: italic;
 }
+
+.teaser p {
+ text-align: justify;
+}
+
 
 
 /*
